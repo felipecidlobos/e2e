@@ -1,0 +1,23 @@
+CONCLUSIONES - ESCENARIO INICIO DE SESIÓN START SHARP
+
+1. Se validó correctamente el flujo de inicio de sesión exitoso en la aplicación Start Sharp, comprobando que el usuario puede autenticarse con credenciales válidas.
+
+2. El uso de BDD (Gherkin) permitió definir el escenario en un lenguaje claro, comprensible tanto para equipos técnicos como funcionales.
+
+3. La estructura Dado / Cuando / Entonces facilita la trazabilidad y validación del comportamiento esperado:
+   - Acceso a la página de login
+   - Ingreso de credenciales correctas
+   - Redirección al tablero principal
+
+4. Se verificó que el sistema responde adecuadamente mostrando el tablero, confirmando el éxito del proceso de autenticación.
+
+5. Esta automatización aporta valor en términos de calidad, permitiendo detectar errores en un flujo crítico como el acceso de usuarios.
+
+6. La solución es escalable, permitiendo incorporar fácilmente nuevos escenarios como:
+   - Login fallido
+   - Validaciones de seguridad
+   - Manejo de usuarios bloqueados
+
+CONCLUSIÓN GENERAL:
+
+El escenario implementado garantiza que el proceso de autenticación cumple con los requisitos funcionales definidos, ofreciendo una base sólida para la automatización de pruebas en el sistema.
